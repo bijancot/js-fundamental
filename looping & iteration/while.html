@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Looping : while</h3>
+
+    <p id="loop"></p>
+
+    <script>
+        var i=0,text;
+        
+        while(i<3){
+            text+= "angka ke-" + i;
+            i++;
+        }
+
+        document.getElementById('loop').innerHTML = text;
+    </script>
+</body>
+</html>

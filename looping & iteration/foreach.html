@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Looping : foreach</h3>
+
+    <p id="loop"></p>
+
+    <script>
+        var text;
+        var angka = [45, 4, 9, 16, 25];
+        angka.forEach(myAngka);
+        document.getElementById("loop").innerHTML = text;
+
+        function myAngka(value, index, array) {
+        text += value + "<br>"; 
+        }
+    </script>
+</body>
+</html>

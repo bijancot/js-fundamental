@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>untuk mencoba, coba refresh berulang-ulang ya</h3>
+    <ul>
+        <li>1. nama</li>
+        <li>2. umur</li>
+        <li>3. alamat</li>
+        <li>0. batal</li>
+    </ul>
+    <p>Pilihan yang dipilih oleh sistem : </p>
+    <p id="satu"></p>
+    <p id="hasil"></p>
+
+    <script>
+    var pilihan = Math.floor(Math.random() * Math.floor(3));
+        document.getElementById("satu").innerHTML = pilihan;
+    
+    switch(pilihan){
+        case 0 :
+        document.getElementById("hasil").innerHTML = "Batal";
+            break;
+        case 1 :
+        document.getElementById("hasil").innerHTML = "100 tahun";
+            break;
+        case 2 :
+        document.getElementById("hasil").innerHTML = "Malang";
+            break;
+        case 3 : 
+        document.getElementById("hasil").innerHTML = "Budi";
+            break;
+    }
+    
+    
+
+    </script>
+</body>
+</html>

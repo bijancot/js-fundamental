@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>untuk mencoba, coba refresh berulang-ulang ya : angka random dari 0 sampai 100</h3>
+
+    <p id="hasil"></p>
+
+    <script>
+        var randomg = function getRandInt(max){
+            var res = Math.floor(Math.random() * Math.floor(max));
+            return res;
+        }
+        document.getElementById("hasil").innerHTML = getRandInt(100);
+
+    </script>
+</body>
+</html>

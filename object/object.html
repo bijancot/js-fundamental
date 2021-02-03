@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Object : Buku</h3>
+
+    <p id="judul"></p>
+    <p id="pengarang"></p>
+    <p id="halaman"></p>
+
+    <script>
+        var buku = {
+            'judul': "Though-force in business and everyday life",
+            'pengarang' : "Wiliam Atkinson",
+            'halaman' : 150
+        };
+
+        document.getElementById('judul').innerHTML = buku.judul;
+        document.getElementById('pengaran').innerHTML = buku.pengarang;
+        document.getElementById('halaman').innerHTML = buku.halaman;
+
+
+    </script>
+</body>
+</html>

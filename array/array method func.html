@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Array</h3>
+
+    <p id="hasil"></p>
+    <p id="hasil-index"></p>
+    <p id="panjang"></p>
+    <p id="urut"></p>
+
+    <script>
+        var mata_pelajaran2 = new Array("IPA","IPS","PPKN");
+        document.getElementById("hasil").innerHTML = mata_pelajaran2;
+        document.getElementById("hasil-index").innerHTML = mata_pelajaran2[0];
+        document.getElementById("panjang").innerHTML = mata_pelajaran2.length;
+        document.getElementById("panjang").innerHTML = mata_pelajaran2.sort();
+
+    </script>
+</body>
+</html>
